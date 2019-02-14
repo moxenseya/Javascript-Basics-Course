@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+<title> JavaScript Course</title>
+
+</head>
+
+<body>
+
+
+<p> What's the magic word? </p>
+<input type = 'text' id = 'password'></input>
+<button id = 'submitbutton'>Submit answer</button>
+
+<script type = "text/javascript">
+
+document.getElementById('submitbutton').onclick = function() {
+	
+	var phrase = document.getElementById('password').value;
+	
+	if(phrase == "thesecretword")
+		alert("You're in!");
+	else if (phrase == "wrongpass")
+		alert("Nope, wrong phrase, smarty!");
+	else
+		alert("Incorrect pass phrase.");
+}
+
+
+</script>
+
+</body>
+
+
+
+</html>

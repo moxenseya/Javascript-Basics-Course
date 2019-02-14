@@ -1,0 +1,28 @@
+<html>
+
+<head>
+<title> JavaScript Course</title>
+
+</head>
+
+<body>
+<input type ='text' id ='Textbox'></input>
+
+<Button id = 'messagebuttton'>Message box!</Button>
+<p id = 'paragraph'>Placeholder Text</p>
+
+<script type = "text/javascript">
+
+document.getElementById('messagebuttton').onclick = function() 
+{
+var boxtext = document.getElementById('Textbox').value;
+document.getElementById('paragraph').innerHTML = boxtext;
+}
+
+</script>
+
+</body>
+
+
+
+</html>
