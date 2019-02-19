@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<head>
+<title> JavaScript Course</title>
+
+</head>
+
+<body>
+<p>How many fingers am i holding up?</p>
+<input type ='text' id = 'useranswer'></input>
+<button id ='submitanswer'>Submit</button>
+
+
+<script type = "text/javascript">
+
+document.getElementById('submitanswer').onclick = function() {	
+
+	var randomnum = Math.floor(Math.random()*6);
+	if(document.getElementById('useranswer').value == randomnum)
+	alert('Yes! You got the answer right! Congratulations!');
+	else
+	alert('Nope, try again, ' + randomnum + ' is the answer');
+
+}
+
+</script>
+
+</body>
+
+
+
+</html>
