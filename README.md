@@ -1,7 +1,4 @@
 # Javascript-Course
-Web development practice for Rob Percival's Javascript Course
+Web development practice for Rob Percival's Web Developer Course
 
-
-This course included basic javascript programming. 
-
-End-course project is a browser-based game.
+Javascript End Project - Reaction Tester Game
